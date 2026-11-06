@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>BICHO</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/FAVICON.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Fonte Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- CABEÇALHO -->
+<header id="inicio" class="position-relative overflow-hidden" style="min-height: 500px;">
+    <div class="container-fluid text-center pt-5">
+        <a href="#inicio" class="d-inline-block bicho-logo-link">
+                <img src="img/LOGO.png"
+                     alt="BICHO"
+                     class="bicho-logo bicho-logo-original"
+                     style="height: 500px; width: auto; max-width: 90%;">
+                       </a>
+    </div>
+</header>
+
+     <!-- MENU -->
+<nav class="navbar position-fixed top-0 end-0 p-4" style="z-index: 1030;">
+    <div class="d-flex flex-column align-items-end">
+        <button class="navbar-toggler border-0 shadow-none text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse mt-2" id="menu">
+            <ul class="navbar-nav text-center bg-white p-3 rounded-4 shadow-sm menu-lista">
+                <li class="nav-item"><a class="nav-link btn-arredondado fechar-menu" href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link btn-arredondado fechar-menu" href="#arquivo">Arquivo</a></li>
+                <li class="nav-item"><a class="nav-link btn-arredondado fechar-menu" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- SOBRE -->
+<section id="sobre" class="container-fluid px-4 py-5">
+
+    <div class="row g-4">
+            
+          <div class="col-12 col-md-7">
+
+            <h2 class="display-5">
+                Um lugar para o que não sei explicar.
+            </h2>
+
+            <p class="mt-4">
+            BICHO é um arquivo pessoal de fotografias, desenhos e experiências. 
+            Um espaço para explorar formas, testar possibilidades e guardar aquilo que 
+            não pertence necessáriamente a uma categoria.
+                </p>
+            </div>
+
+        </div>
+</section>
+  
+<!-- ARQUIVO -->
+<section id="arquivo" class="container-fluid py-5">
+    <h2 class="text-center mb-5 titulo-arquivo">Arquivo Visual</h2>
+
+    <div class="arquivo-container">
+        <div class="arquivo-grelha">
+            <article class="arquivo-item item-001"><img src="img/001_.png" alt=""><span>001</span></article>
+            <article class="arquivo-item item-002"><img src="img/desenho3.png" alt=""><span>002</span></article>
+            <article class="arquivo-item item-003"><img src="img/shesapeach.png" alt=""><span>003</span></article>
+            <article class="arquivo-item item-004"><img src="img/foto_fotoeu.png" alt=""><span>004</span></article>
+            <article class="arquivo-item item-005"><img src="img/POPPIE.png" alt=""><span>005</span></article>
+            <article class="arquivo-item item-006"><img src="img/foto_papoilas.png" alt=""><span>006</span></article>
+            <article class="arquivo-item item-007"><img src="img/desenho_dentes e lingua.png" alt=""><span>007</span></article>
+            <article class="arquivo-item item-008"><img src="img/desenho5.png" alt=""><span>008</span></article>
+            <article class="arquivo-item item-009"><img src="img/foto_notas.png" alt=""><span>009</span></article>
+            <article class="arquivo-item item-010"><img src="img/PATAS.png" alt=""><span>010</span></article>
+            <article class="arquivo-item item-011"><img src="img/desenho_olho.png" alt=""><span>011</span></article>
+            <article class="arquivo-item item-012"><img src="img/SUPPER.png" alt=""><span>012</span></article>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="container-fluid px-4 py-5 position-relative">
+    
+    <div class="row g-4 justify-content-center">
+        <div class="col-12 col-md-6">
+            <div class="text-center mb-5">
+                <h2 class="display-5 text-dark">Diz qualquer coisa.</h2>
+            </div>
+            <form action="mailto:salome.xaviers@gmail.com" method="post" enctype="text/plain">
+                <div class="mb-4">
+                    <label for="nome" class="form-label text-dark">Nome</label>
+                    <input type="text" class="form-control bg-transparent border-dark rounded-3" id="nome" name="nome" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="form-label text-dark">Email</label>
+                    <input type="email" class="form-control bg-transparent border-dark rounded-3" id="email" name="email" required>
+                </div>
+                <div class="mb-4">
+                    <label for="mensagem" class="form-label text-dark">Mensagem</label>
+                    <textarea class="form-control bg-transparent border-dark rounded-3" id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-arredondado px-5 py-2">Enviar mensagem ↗</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- RODAPÉ -->
+<footer class="container-fluid px-4 py-4 border-top border-secondary">
+    <div class="row align-items-center text-center text-md-start">
+        <div class="col-12 col-md-6 mb-3 mb-md-0">
+            <p class="small mb-0 text-dark">BICHO © 2026</p>
+        </div>
+        <div class="col-12 col-md-6 text-md-end text-center">
+            <a href="#inicio" class="btn-arredondado text-decoration-none d-inline-block">Voltar ao início ↑</a>
+        </div>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+// Fechar o menu
+const navbarCollapse = document.getElementById('menu');
+document.querySelectorAll('.fechar-menu').forEach(link => {
+    link.addEventListener('click', () => {
+        const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+        if (bsCollapse) bsCollapse.hide();
+    });
+});
+
+document.addEventListener('click', (event) => {
+    const nav = document.querySelector('.navbar');
+    if (!nav.contains(event.target) && navbarCollapse.classList.contains('show')) {
+        const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+        if (bsCollapse) {
+            bsCollapse.hide();
+        } else {
+            new bootstrap.Collapse(navbarCollapse).hide();
+        }
+    }
+});
+
+// Efeito "Allô..." 
+const textareaMsg = document.getElementById('mensagem');
+const textoAllo = "Allô...";
+let i = 0;
+let jaEscreveu = false;
+
+function escreverAllo() {
+    if (i < textoAllo.length && !jaEscreveu && document.activeElement !== textareaMsg) {
+        textareaMsg.placeholder += textoAllo.charAt(i);
+        i++;
+        setTimeout(escreverAllo, 150);
+    }
+}
+
+setTimeout(escreverAllo, 1000);
+
+textareaMsg.addEventListener('focus', () => {
+    jaEscreveu = true;
+    textareaMsg.placeholder = "";
+});
+</script>
+
+</body>
+</html>
